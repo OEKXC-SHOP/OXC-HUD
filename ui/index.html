@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OXC HUD</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="pusula.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+
+    
+    <div id="top-right-info">
+        <div class="header-block">
+            <img id="server-logo-img" src="image/oekxc.png" alt="Logo"> 
+            <div class="combined-info">
+                <div class="combined-row-1">
+                    <span class="player-id">ID #<span id="player-id-val">0</span></span>
+                    <span class="player-count"><i class="fas fa-users"></i> <span id="player-count-val">0/0</span></span>
+                </div>
+                <div class="combined-row-2">
+                    <i id="weather-icon" class="fas fa-sun"></i> 
+                    <span id="time-val">00:00</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="info-box cash">
+            <div class="box-content">
+                <i class="fas fa-money-bill-wave"></i> 
+                <span id="cash-val">0</span>
+            </div>
+            <div class="box-label">
+                 <i class="fas fa-wallet"></i>
+                 <span>NAKİT</span>
+             </div>
+        </div>
+        <div class="info-box bank">
+            <div class="box-content">
+                <i class="fas fa-university"></i> 
+                <span id="bank-val">0</span>
+            </div>
+             <div class="box-label">
+                 <i class="fas fa-landmark"></i>
+                 <span>BANKA</span>
+             </div>
+        </div>
+        <div class="info-box job">
+            <div class="box-content">
+                <!-- Job details might need more structure -->
+                <span id="job-details">İşsiz</span> 
+            </div>
+             <div class="box-label">
+                 <i class="fas fa-briefcase"></i>
+                 <span>MEVCUT İŞ</span>
+             </div>
+        </div>
+    </div>
+
+
+
+    <div id="hud-container">
+        <div id="status-indicators">
+            <div class="status-circle" id="health">
+                <i class="fas fa-heart"></i>
+                <svg class="progress-ring" width="40" height="40">
+                    <circle class="progress-ring__circle" stroke="#4CAF50" stroke-width="3" fill="transparent" r="17" cx="20" cy="20"/>
+                </svg>
+            </div>
+            <div class="status-circle" id="armor">
+                <i class="fas fa-shield-alt"></i>
+                <svg class="progress-ring" width="40" height="40">
+                    <circle class="progress-ring__circle" stroke="#2196F3" stroke-width="3" fill="transparent" r="17" cx="20" cy="20"/>
+                </svg>
+            </div>
+            <div class="status-circle" id="hunger">
+                <i class="fas fa-hamburger"></i>
+                <svg class="progress-ring" width="40" height="40">
+                    <circle class="progress-ring__circle" stroke="#FF9800" stroke-width="3" fill="transparent" r="17" cx="20" cy="20"/>
+                </svg>
+            </div>
+            <div class="status-circle" id="thirst">
+                <i class="fas fa-tint"></i>
+                <svg class="progress-ring" width="40" height="40">
+                    <circle class="progress-ring__circle" stroke="#00BCD4" stroke-width="3" fill="transparent" r="17" cx="20" cy="20"/>
+                </svg>
+            </div>
+            <div class="status-circle" id="stamina">
+                 <i class="fas fa-bolt"></i>
+                 <svg class="progress-ring" width="40" height="40">
+                    <circle class="progress-ring__circle" stroke="#9C27B0" stroke-width="3" fill="transparent" r="17" cx="20" cy="20"/>
+                 </svg>
+            </div>
+            <div class="status-circle" id="oxygen" style="display: none;"> 
+                <i class="fas fa-lungs"></i>
+                <svg class="progress-ring" width="40" height="40">
+                    <circle class="progress-ring__circle" stroke="#80DEEA" stroke-width="3" fill="transparent" r="17" cx="20" cy="20"/>
+                 </svg>
+            </div>
+        </div>
+        <div id="location-container">
+            <div id="location-info">
+                <i class="fas fa-map-marker-alt"></i>
+                <div class="location-text">
+                    <span class="location-label">Location</span>
+                    <span class="location-name">Unknown</span>
+                </div>
+            </div>
+            <div id="microphone-status">
+                <i class="fas fa-microphone"></i>
+            </div>
+        </div>
+    </div>
+
+    <!-- Vehicle Speedometer -->
+    <div id="speedometer-container" style="display: none;"> 
+        
+        <div id="speedo-indicators">
+            <span id="indicator-seatbelt"><i class="fas fa-user-shield"></i></span>
+            <span id="indicator-fuel"><i class="fas fa-gas-pump"></i></span>
+            <span id="indicator-abs">ABS</span>
+        </div>
+
+        <div id="speedo-value-container">
+            <span id="speedo-value">000</span>
+        </div>
+
+        <div id="speedo-details">
+            <div class="detail-box gear-label">
+                <span>GEAR</span>
+            </div>
+            <div class="detail-box gear-value">
+                <span id="speedo-gear">N</span>
+            </div>
+            <div class="detail-box speed-unit">
+                <span id="speedo-unit">KMH</span>
+            </div>
+        </div>
+
+        <div id="speedo-rpm-bar">
+            <div id="speedo-rpm-progress"></div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+    <script src="pusula.js"></script>
+</body>
+</html> 

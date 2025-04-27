@@ -1,0 +1,23 @@
+{
+    "hud_on": "ATH activé",
+    "hud_off": "ATH désactivé",
+    "cinematic_on": "Mode cinéma activé",
+    "cinematic_off": "Mode cinéma désactivé",
+    "seatbelt_fastened": "Ceinture attachée.",
+    "seatbelt_unfastened": "Ceinture détachée.",
+    "seatbelt_warning_title": "Avertissement",
+    "seatbelt_warning_desc": "Veuillez attacher votre ceinture !",
+    "cash_label": "ESPÈCES",
+    "bank_label": "BANQUE",
+    "job_label": "EMPLOI ACTUEL",
+    "location_label": "Lieu",
+    "unknown_location": "Zone Inconnue",
+    "unemployed": "Sans emploi",
+    "speed_unit_kmh": "KMH",
+    "speed_unit_mph": "MPH",
+    "gear_label": "VITESSE",
+    "hbk_indicator": "FM",
+    "abs_indicator": "ABS",
+    "seatbelt_indicator_tooltip": "Ceinture de sécurité",
+    "fuel_indicator_tooltip": "Carburant"
+} 

@@ -1,0 +1,23 @@
+{
+    "hud_on": "HUD activado",
+    "hud_off": "HUD desactivado",
+    "cinematic_on": "Modo cinemático activado",
+    "cinematic_off": "Modo cinemático desactivado",
+    "seatbelt_fastened": "Cinturón abrochado.",
+    "seatbelt_unfastened": "Cinturón desabrochado.",
+    "seatbelt_warning_title": "Advertencia",
+    "seatbelt_warning_desc": "¡Por favor, abróchate el cinturón!",
+    "cash_label": "EFECTIVO",
+    "bank_label": "BANCO",
+    "job_label": "TRABAJO ACTUAL",
+    "location_label": "Ubicación",
+    "unknown_location": "Área Desconocida",
+    "unemployed": "Desempleado",
+    "speed_unit_kmh": "KMH",
+    "speed_unit_mph": "MPH",
+    "gear_label": "MARCHA",
+    "hbk_indicator": "FMA",
+    "abs_indicator": "ABS",
+    "seatbelt_indicator_tooltip": "Cinturón de Seguridad",
+    "fuel_indicator_tooltip": "Combustible"
+} 

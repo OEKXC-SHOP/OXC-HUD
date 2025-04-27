@@ -1,0 +1,23 @@
+{
+    "hud_on": "HUD ativado",
+    "hud_off": "HUD desativado",
+    "cinematic_on": "Modo cinemático ativado",
+    "cinematic_off": "Modo cinemático desativado",
+    "seatbelt_fastened": "Cinto afivelado.",
+    "seatbelt_unfastened": "Cinto desafivelado.",
+    "seatbelt_warning_title": "Aviso",
+    "seatbelt_warning_desc": "Por favor, afivele o cinto!",
+    "cash_label": "DINHEIRO",
+    "bank_label": "BANCO",
+    "job_label": "EMPREGO ATUAL",
+    "location_label": "Localização",
+    "unknown_location": "Área Desconhecida",
+    "unemployed": "Desempregado",
+    "speed_unit_kmh": "KMH",
+    "speed_unit_mph": "MPH",
+    "gear_label": "MARCHA",
+    "hbk_indicator": "FM",
+    "abs_indicator": "ABS",
+    "seatbelt_indicator_tooltip": "Cinto de Segurança",
+    "fuel_indicator_tooltip": "Combustível"
+} 

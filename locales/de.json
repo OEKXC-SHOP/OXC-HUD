@@ -1,0 +1,23 @@
+{
+    "hud_on": "HUD aktiviert",
+    "hud_off": "HUD deaktiviert",
+    "cinematic_on": "Kinomodus aktiviert",
+    "cinematic_off": "Kinomodus deaktiviert",
+    "seatbelt_fastened": "Angeschnallt.",
+    "seatbelt_unfastened": "Abgeschnallt.",
+    "seatbelt_warning_title": "Warnung",
+    "seatbelt_warning_desc": "Bitte anschnallen!",
+    "cash_label": "BARGELD",
+    "bank_label": "BANK",
+    "job_label": "AKTUELLER JOB",
+    "location_label": "Ort",
+    "unknown_location": "Unbekannter Bereich",
+    "unemployed": "Arbeitslos",
+    "speed_unit_kmh": "KMH",
+    "speed_unit_mph": "MPH",
+    "gear_label": "GANG",
+    "hbk_indicator": "HB",
+    "abs_indicator": "ABS",
+    "seatbelt_indicator_tooltip": "Sicherheitsgurt",
+    "fuel_indicator_tooltip": "Treibstoff"
+} 

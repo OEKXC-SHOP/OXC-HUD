@@ -1,0 +1,23 @@
+{
+    "hud_on": "HUD enabled",
+    "hud_off": "HUD disabled",
+    "cinematic_on": "Cinematic mode enabled",
+    "cinematic_off": "Cinematic mode disabled",
+    "seatbelt_fastened": "Seatbelt fastened.",
+    "seatbelt_unfastened": "Seatbelt unfastened.",
+    "seatbelt_warning_title": "Warning",
+    "seatbelt_warning_desc": "Please fasten your seatbelt!",
+    "cash_label": "CASH",
+    "bank_label": "BANK",
+    "job_label": "CURRENT JOB",
+    "location_label": "Location",
+    "unknown_location": "Unknown Area",
+    "unemployed": "Unemployed",
+    "speed_unit_kmh": "KMH",
+    "speed_unit_mph": "MPH",
+    "gear_label": "GEAR",
+    "hbk_indicator": "HBK",
+    "abs_indicator": "ABS",
+    "seatbelt_indicator_tooltip": "Seatbelt",
+    "fuel_indicator_tooltip": "Fuel"
+} 

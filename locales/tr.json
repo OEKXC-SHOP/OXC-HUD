@@ -1,0 +1,23 @@
+{
+    "hud_on": "HUD açıldı",
+    "hud_off": "HUD kapatıldı",
+    "cinematic_on": "Sinemaskop modu açıldı",
+    "cinematic_off": "Sinemaskop modu kapatıldı",
+    "seatbelt_fastened": "Kemer takıldı.",
+    "seatbelt_unfastened": "Kemer çıkarıldı.",
+    "seatbelt_warning_title": "Uyarı",
+    "seatbelt_warning_desc": "Lütfen emniyet kemerinizi takın!",
+    "cash_label": "NAKİT",
+    "bank_label": "BANKA",
+    "job_label": "MEVCUT İŞ",
+    "location_label": "Konum",
+    "unknown_location": "Bilinmeyen Bölge",
+    "unemployed": "İşsiz",
+    "speed_unit_kmh": "KMH",
+    "speed_unit_mph": "MPH",
+    "gear_label": "VİTES",
+    "hbk_indicator": "HBK",
+    "abs_indicator": "ABS",
+    "seatbelt_indicator_tooltip": "Emniyet Kemeri",
+    "fuel_indicator_tooltip": "Yakıt"
+} 
